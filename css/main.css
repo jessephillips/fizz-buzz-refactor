@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+	background-color: #11c0d5;
+	letter-spacing: 1px;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	font: bold 90px/67px 'Pacifico', Times, serif;
+	color: #ce1b3c;
+	margin: 90px auto 27px auto;
+	text-align: center;
+	
+}
+
+.instructions {
+	color: #eee;
+	font: normal 16px/20px Helvetica, Arial, sans-serif;
+	margin: 30px 0 10px 0;
+	text-align: center;
+}
+
+input {
+	width: 510px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font: 500 20px/40px Helvetica, Arial, sans-serif;
+	padding: 0 10px;
+}
+
+button {
+	font: 500 20px/30px 'Pacifico', Times, serif;
+	background-color: #204CC9;
+	border-radius: 5px;
+	border: none;
+	width: 60px;
+	color: #eee;
+	padding-bottom: 10px;
+}
+
+button:hover {
+	color: #ddd;
+	background-color: #4866BC;
+}
+
+#the-list {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+#the-list li {
+	color: #eee;
+	font: normal 16px/30px Helvetica, Arial, serif;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+#the-list li.special {
+	color: #204CC9;
+	font-family: 'Pacifico', Times, serif;
+}
+
+#the-list li.fizzbuzz {
+	color: #ce1b3c;
+	font-family: 'Pacifico', Times, serif;
+}
